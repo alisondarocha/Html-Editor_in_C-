@@ -37,7 +37,7 @@ namespace EditorHtml
                             words[i].IndexOf('>') + 1,
                             (
                                 (words[i].LastIndexOf('<') - 1) -
-                                words[i].IndexOf('> ')
+                                words[i].IndexOf('>')
                             ) 
                         )
                     );
